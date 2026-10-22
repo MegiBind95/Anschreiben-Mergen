@@ -1,0 +1,70 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at [http://www.latex-project.org/lppl/](http://www.latex-project.org/lppl/).
+
+\documentclass[11pt,a4paper]{moderncv} % a4paper statt letterpaper
+
+\usepackage[ngerman]{babel}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.78]{geometry}
+\usepackage{ragged2e} % Wichtig für den Blocksatz (\justifying)
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\renewcommand{\familydefault}{\sfdefault}
+
+% personal data
+\name{Mergen}{Binderiya}
+\address{Wichertstraße 41}{10439 Berlin}{} % 3 Argumente bei address
+\phone[mobile]{+49~176~55339509}
+\email{mergen.binderiya@live.com} % Email hinzugefügt
+
+% Abstand zwischen den Absätzen
+\parskip3mm
+\parindent0mm
+
+\begin{document}
+
+% recipient data
+\recipient{Technische Universität München \\ Campus Straubing für Biotechnologie und Nachhaltigkeit \\ Professur für Chemische und Thermische Verfahrenstechnik \\ Prof. Dr.-Ing. Jakob Burger}{Uferstraße 53 \\ 94315 Straubing}
+
+\date{Berlin, \today}
+
+\opening{Sehr geehrte Damen und Herren,}
+
+\makelettertitle
+
+% ==============================================
+% HIER WIRD DER BLOCKSATZ AKTIVIERT:
+\justifying
+% ==============================================
+
+die datengetriebene Optimierung verfahrenstechnischer Prozesse ist der zentrale Hebel, um Chemieanlagen effizienter, sicherer und flexibler zu betreiben. Da ich in meinem Masterstudium der Energie- und Verfahrenstechnik an der TU Berlin – das ich in Kürze mit einer Gesamtnote von voraussichtlich 1,5 abschließen werde – an exakt dieser Schnittstelle zwischen Anlagenbetrieb, Modellierung und Simulation der Fluiddynamik und Machine Learning forsche, bewerbe ich mich mit großer Begeisterung auf die ausgeschriebene Promotionsstelle.
+
+\textbf{Betrieb und Umbau verfahrenstechnischer Pilotanlagen:}\\
+Das Führen und Optimieren von Versuchsanlagen im Pilotmaßstab ist mir bestens vertraut. Als Research Assistant betreue ich aktuell nicht nur den operativen Betrieb einer Pilotanlage zur chemischen Absorption von CO2 in Rotating Packed Beds (CCUS), sondern habe diese auch maßgeblich umgebaut und erweitert. Ich führe umfangreiche Messkampagnen durch, evaluiere die Anlage sicherheitstechnisch (PAAG/HAZOP) und binde komplexe Sensorik tief in das Leitsystem SIMATIC PCS7 ein.
+
+\textbf{Machine Learning, Fluiddynamik und echtes Coding:}\\
+Die Nutzung von Anlagendaten zur automatisierten Anomalieerkennung und Betriebsoptimierung ist mein wissenschaftlicher Schwerpunkt. In meiner Masterarbeit habe ich neben der Entwicklung eines fluiddynamischen physikalischen Modells (Navier-Stokes) für die Rotating Packed Beds parallel auch ein datengetriebenes Surrogatmodell (Artificial Neural Network) in Python entwickelt und trainiert. Wie mein Projektportfolio zeigt, verfüge ich über tiefgreifende numerische Programmiererfahrung (MATLAB/Python) – Fähigkeiten, die ich mir weit vor den Zeiten des „Vibe-Codings“ angeeignet habe und bei denen ich Differentialgleichungen und Optimierungsalgorithmen von Hand aufsetze und implementiere.
+
+\textbf{Simulation und dynamische Betriebspunktwechsel:}\\
+Den Fokus auf dynamische Vorgänge in Ihrer Anlage kann ich ideal bedienen. Durch Module wie „Optimization in Process Sciences“ bringe ich weitreichende Erfahrung in der Nutzung von Optimierungsmethoden mit, um dynamische Betriebspunktwechsel effizient zu berechnen. Dies bildet, gekoppelt mit meinen fundierten Simulationskenntnissen (Aspen Plus Dynamics), die perfekte methodische Grundlage, um neue ML-Methoden im laufenden Betrieb Ihrer Pilotanlage zu testen und zu implementieren.
+
+\textbf{Kommunikation, Lehre und Teamarbeit:}\\
+Die Perspektive, mein Wissen in verhandlungssicherem Englisch und exzellentem Deutsch an Studierende weiterzugeben, motiviert mich für diese Stelle sehr. Das Interesse an der Lehre sowie die Begeisterung für multidisziplinäre Teamarbeit bringe ich – unter anderem durch meine Ausbildung in Lean-Management-Methoden (Problem Solving Process) aus meiner Industrietätigkeit bei der Hach GmbH – mit großer Überzeugung mit. 
+
+Ich freue mich sehr darauf, meine Hands-on-Erfahrung an Pilotanlagen mit meiner fundierten Expertise im Machine Learning in Ihr Team einzubringen. Gerne überzeuge ich Sie in einem persönlichen Gespräch von meiner Eignung.
+
+
+
+\closing{Mit freundlichen Grüßen}
+% Generiert Grußformel und Platz für die Unterschrift
+\makeletterclosing
+
+\end{document}
